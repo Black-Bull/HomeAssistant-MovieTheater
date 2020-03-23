@@ -1,0 +1,20 @@
+# Dims/turn on the light when playing media 
+- alias: "Media player paused/stopped"
+  trigger:
+    - platform: state
+      entity_id: Your media player entity id
+      from: 'playing'
+      to: 'paused'
+  action:
+      service: scene.turn_on
+      entity_id: Your scene entity id
+
+- alias: "Media player playing"
+  trigger:
+    - platform: state
+      entity_id: Your media player entity id
+      to: 'playing'
+      from: 'paused'
+  action:
+      service: scene.turn_on
+      entity_id: Your scene entity id
