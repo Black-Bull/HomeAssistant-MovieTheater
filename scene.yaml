@@ -1,0 +1,20 @@
+  - name: Your own name
+    entities:
+        Light entity id
+            state: on
+            transition: 2
+            brightness_pct: 75
+        Light entity id        
+            state: on
+            transition: 2
+            brightness_pct: 75
+  - name: Your own name
+    entities:
+        Light entity id
+            state: on
+            transition: 2
+            brightness_pct: 10
+        Light entity id
+            state: on
+            transition: 2
+            brightness_pct: 10 
